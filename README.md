@@ -4,6 +4,8 @@ yii2-fancybox
 fancyBox is a tool that offers a nice and elegant way to add zooming 
 functionality for images, html content and multi-media on your webpages.  http://fancyapps.com/fancybox/
 
+Forked from [newerton/yii2-fancybox](https://github.com/newerton/yii2-fancybox).
+
 Installation
 ------------
 
@@ -13,13 +15,13 @@ Either run
 
 ```
 php composer.phar global require "fxp/composer-asset-plugin:^1.2.0"
-php composer.phar require --prefer-dist newerton/yii2-fancybox "dev-master"
+php composer.phar require --prefer-dist black-lamp/yii2-fancybox "*"
 ```
 
 or add
 
 ```
-"newerton/yii2-fancybox": "dev-master"
+"black-lamp/yii2-fancybox": "*"
 ```
 
 to the require section of your `composer.json` file.
